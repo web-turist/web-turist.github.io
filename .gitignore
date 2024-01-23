@@ -3,8 +3,9 @@
 # dependencies
 /node_modules
 /src
-/dist
-!/dist/**
+!dist/*
+dist/
+!**/dist/**
 gulpfile.js
 package-lock.json
 package.json
